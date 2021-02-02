@@ -49,14 +49,17 @@ section{
 }
 
 .grid-container{
-    margin-top: 20px;
+    margin: 20px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
     grid-gap: 15px;
 }
 
 .grid-item h3{
-    margin-left: 38px;
+    margin-left: 40px;
+    margin-top: -10px;
+    font-size: x-large;
+    text-transform: uppercase;
 }
 
 .grid-item a{
@@ -65,8 +68,15 @@ section{
     text-decoration: none;
 }
 
-.grid-item{
+.grid-item figcaption{
+    color: #6d6d6d;
+    font-weight: 600;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
 
+.grid-item:hover{
+    background-color: lightgrey;
 }
 
 #order{
