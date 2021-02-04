@@ -104,6 +104,16 @@ section{
     background-color: black;
 }
 
+@media (min-width: 1550px) {
+    .grid-item{
+        text-align: center;
+    }
+
+    .grid-item h3{
+        margin-left: 0;
+    }
+}
+
 @media (max-width: 1450px){
     .grid-container{
         grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
@@ -141,7 +151,8 @@ section{
     }
 
     .grid-item{
-        padding-top: 1vh;
+        padding-top: 2px;
+        padding-bottom: 1px;
         margin-right: 20vw;
         margin-left: 20vw;
     }
@@ -149,10 +160,6 @@ section{
     .grid-item h3{
         margin-left: 0;
     }
-
-}
-
-@media (max-width: 850px){
 
 }
 
