@@ -2,7 +2,7 @@
 
 # Welcome
 
-**This is a web page I created for an interview in the past**
+**This is a web page I created for an interview in the past.**
 
 ## The Quiz
 
